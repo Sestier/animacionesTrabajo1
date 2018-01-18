@@ -52,7 +52,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4H-Tc-KFa">
                                 <rect key="frame" x="191" y="501" width="180" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.61960784310000006" green="0.4823529412" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.40392156862745099" green="0.27450980392156865" blue="0.21568627450980393" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Registrarse"/>
@@ -60,10 +60,17 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="btnLogIn" destination="Y4H-Tc-KFa" id="Myc-Nf-VBq"/>
+                        <outlet property="btnSingIn" destination="RSc-uD-xHZ" id="mnH-55-BqE"/>
+                        <outlet property="imgSphinxCat" destination="Fqb-ZM-Uia" id="BjP-Rq-nRx"/>
+                        <outlet property="lblContra" destination="rKl-7Q-9GA" id="0NY-jh-1Fv"/>
+                        <outlet property="lblUsuario" destination="B5K-ZG-CCg" id="wYn-8I-UE9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-135.19999999999999" y="120.98950524737631"/>
+            <point key="canvasLocation" x="-44" y="140"/>
         </scene>
     </scenes>
     <resources>
